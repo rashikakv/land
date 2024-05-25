@@ -1,0 +1,335 @@
+header {
+    display: flex;
+    font-size: 14px;
+    background-color: rgb(248, 230, 206);
+    width: 100%;
+    line-height: 1.5cm;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-name {
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin: 5px;
+}
+
+.header-dropdown {
+    position: relative;
+}
+
+.header-dropdown:hover .header-dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.header-dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 200px;
+    z-index: 9;
+    background: #fff;
+    padding: 10px;
+}
+
+.header-dropdown-menu li {
+    list-style-type: none;
+}
+
+.sub-dropdown {
+    position: relative;
+}
+
+.sub-dropdown:hover .sub-dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    z-index: 10;
+    background: #fff;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.sub-dropdown2 {
+    position: relative;
+}
+
+.sub-dropdown2:hover .sub-dropdown2-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-dropdown2-menu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    z-index: 10;
+    background: #fff;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.banner-section {
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
+
+.card-container .container {
+    background-color: antiquewhite;
+}
+
+.banner-cont {
+    text-align: center;
+    padding: 150px 0px;
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    line-height: 40px;
+    background-color: antiquewhite;
+    /* background-image: url(Images/bg.jpg); */
+}
+
+.banner-cont .banbut {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    border-radius: 5%;
+    background-color: cadetblue;
+    padding: 1px 41px;
+    margin: 10px;
+}
+
+.about-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+.abt-col {
+    text-align: start;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.learn-but {
+    margin-top: 20px;
+    background-color: white;
+    border-color: blue;
+    border-width: 3px;
+    border-radius: 5%;
+    padding: 0px 27px;
+    font-weight: 400;
+    color: blue;
+}
+
+.lis li {
+    list-style-type: circle;
+}
+
+.card-col {
+    transition: ease-in-out;
+}
+
+.card-container {
+    background-color: antiquewhite;
+}
+
+.count-section {
+    background: rgb(247, 226, 199);
+    width: 100%;
+
+}
+
+.count-col h2 {
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-col p {
+    color: rgb(4, 98, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-section .container {
+    height: auto;
+    padding: 40px;
+}
+
+.split {
+    background-color: antiquewhite;
+}
+
+.abt-img {
+    padding: 56px 0px;
+}
+
+.bi-play-circle {
+    color: black;
+}
+
+.client {
+    background-color: rgb(247, 226, 199);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 0px 40px;
+}
+
+.testimonials {
+    padding: 80px;
+    background-color: antiquewhite;
+}
+
+.testimonials p {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.quote .card {
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: fit-content;
+    display: flex;
+    border: none;
+    background-color: beige;
+}
+
+.quote .card-text {
+    padding: 2px;
+}
+
+.services {
+    padding: 80px;
+    background-color: antiquewhite;
+}
+
+.ser-card .card {
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: fit-content;
+    display: flex;
+    border: none;
+    background-color: rgb(245, 245, 225);
+}
+
+.services p {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.bi {
+    font-size: 35px;
+}
+
+.ser-card .card-title {
+    padding-top: 20px;
+}
+
+.call-to {
+    padding: 50px;
+}
+
+.call-to p {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.btn-call {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 550px;
+    margin-top: 20px;
+    width: 170px;
+    height: 50px;
+    border-radius: 8%;
+    background-color: rgb(247, 226, 199);
+}
+
+.btn-call:hover {
+    background-color: white;
+    color: rgb(9, 44, 65);
+}
+
+.call-to {
+    background-color: rgb(247, 226, 199);
+}
+
+.portfolio {
+    padding: 80px;
+    background-color: antiquewhite;
+}
+.portfolio p {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0px 40px;
+}
+.portfolio-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio a{
+    padding-top:20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.portfolio a:hover{
+    color : rgb(248, 214, 170);
+}
+.team{
+    padding: 80px;
+    background-color: antiquewhite;
+}
+.team p {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0px 40px;
+}
